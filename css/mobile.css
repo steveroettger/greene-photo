@@ -1,0 +1,365 @@
+/*--------------------------------------------
+BEGIN IPHONE STYLES
+---------------------------------------------*/
+@media only screen and (max-width:750px) {
+	
+	#header h1 a, #header h1 a:visited {
+		top: 10px;
+		left: 8px;
+		float: left;
+		font-size: 16px;
+		line-height: 18px;
+	}
+	
+	/*--------------------------------------------
+	INTERIOR HEADER
+	---------------------------------------------*/
+	
+	#interior-header h1 a, #interior-header h1 a:visited {
+		margin: 0;
+		padding:0;
+		position: relative;
+		top: 10px;
+		left: 8px;
+		float: left;
+		font-size: 16px;
+		line-height: 18px;
+		border-right: none;
+	}	
+	
+	#interior-header h2 {
+		margin: 0;
+		padding:0;
+		position: relative;
+		top: 22px;
+		left: -5px;
+		float: right;
+		font-size: 12px;
+		line-height: 14px;
+	}
+	
+	
+	/* MAIN NAV POP UP */
+	#main-nav {
+		position: relative;
+		top: 10px;
+		margin:0 auto;
+		padding: 10px;
+		width: auto;
+		max-width: 500px;
+		height: auto;
+		min-height: 320px;
+		max-height: 320px;
+	}
+	
+	#main-nav .logo {
+		display: none;
+	}
+	
+	#main-nav p {
+		display: none;
+	}
+	
+	#main-nav ul#interior-nav {
+		margin:0 auto;
+		float: none;
+		list-style: none;
+	}
+	
+	#main-nav ul#interior-nav li {
+		display:inline;
+		margin-bottom: 10px;
+	}
+	
+	#main-nav ul#interior-nav li a, #main-nav ul#interior-nav li a:visited {
+		padding-top: 2px;
+		display: inline-block;
+		font-size: 10px;
+		width: 100px;
+		height: 30px;
+	}
+	
+	/* CONTACT INFO */	
+	#contact-info {
+		margin:0;
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	
+	#contact-info p {
+		display: block;
+		margin-bottom: 10px;
+		font-size: 12px;
+	}
+	
+	/*--------------------------------------------
+	FEATURE SLIDER
+	---------------------------------------------*/
+	#feature-slider {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: auto;
+	}
+	
+	#feature-slider ul.slides li {
+		width: 100%;
+		min-height: 400px;
+	}
+		
+	/*--------------------------------------------
+	INTERIOR SLIDER
+	---------------------------------------------*/
+	#interior-slider {
+		margin: 0;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100% !important;
+		height: auto;
+		min-height: 400px;
+			
+	}
+	
+	#interior-slider ul.slides li {
+		width: 100%;
+		min-height: 400px;
+	}
+		
+	/*--------------------------------------------
+	FOOTER
+	---------------------------------------------*/
+	#footer p { font-size: 8px; }
+	
+	
+
+}
+/*--------------------------------------------
+END IPHONE STYLES
+---------------------------------------------*/
+
+/*--------------------------------------------
+BEGIN IPAD PORTRAIT STYLES
+---------------------------------------------*/
+@media screen and (min-width:768px) and (max-width:970px) {
+	
+	/*--------------------------------------------
+	HEADER
+	---------------------------------------------*/
+	#header {
+		height: auto;
+		min-height: 60px;
+	}
+	
+	#header h1 a, #header h1 a:visited {
+		top: 10px;
+		left: 10px;
+		font-size: 18px;
+		line-height: 20px;
+	}	
+	
+	.header-container {
+		min-height: 60px;
+	}
+	
+	/*--------------------------------------------
+	INTERIOR HEADER
+	---------------------------------------------*/
+	#interior-header {
+		margin: 0;
+		width: 100%;
+		height: 60px;
+	}
+	
+	
+	#interior-header h1 a, #interior-header h1 a:visited {
+		left: 10px;
+	}	
+	
+	#interior-header h2 {
+		left: 10px;
+	}
+	
+	/*--------------------------------------------
+	FEATURE SLIDER
+	---------------------------------------------*/
+	#feature-slider ul.slides li {
+		min-height: 930px;
+	}
+	
+	/*--------------------------------------------
+	INTERIOR SLIDER
+	---------------------------------------------*/
+	#interior-slider {
+		margin: 0 auto;
+		padding: 0;
+		width: 95%;
+		min-height: 830px;
+	}
+	
+	#interior-slider ul.slides li {
+		margin: 0 auto;
+		width: 95%;
+		min-height: 830px;
+	}
+}
+/*--------------------------------------------
+END IPAD PORTRAIT STYLES
+---------------------------------------------*/
+
+/*--------------------------------------------
+BEGIN IPAD LANDSCAPE STYLES
+---------------------------------------------*/
+@media screen and (min-width:970px) and (max-width:1030px) {
+	
+	/*--------------------------------------------
+	HEADER
+	---------------------------------------------*/
+	#header h1 a, #header h1 a:visited {
+		top: 10px;
+		left: 10px;
+		font-size: 18px;
+		line-height: 20px;
+	}	
+	
+	/* MAIN NAV POP UP */
+	#main-nav {
+		position: relative;
+		top: 60px;
+		margin:0 auto;
+		padding: 20px;
+		width: auto;
+		max-width: 500px;
+		min-height: 485px;
+		background: #ffffff;
+		border: 5px solid #1C1B1A;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		-webkit-box-shadow: 0 0 15px #1C1B1A;
+		-moz-box-shadow: 0 0 15px #1C1B1A;
+		box-shadow: 0 0 15px #1C1B1A;
+		overflow-y: scroll !important;  
+		-webkit-overflow-scrolling: touch !important; 
+	}
+	
+	#main-nav .logo {
+		margin-bottom: 5px;
+		text-align: center;
+	}
+	
+	#main-nav h2 {
+		margin-bottom: 5px;
+		color: #2b7739;
+		font-weight: lighter;
+	}
+	
+	#main-nav ul#interior-nav {
+		margin:20px 60px 15px 0;
+		padding: 0;
+		float: left;
+		list-style: none;
+		width: 230px;
+	}
+	
+	#main-nav ul#interior-nav li {
+		margin-bottom: 10px;
+	}
+	
+	#main-nav ul#interior-nav li a, #main-nav ul#interior-nav li a:visited {
+		padding-top: 10px;
+		display: block;
+		color: #383838;
+		text-align: center;
+		width: 225px;
+		height: 30px;
+		border: 1px solid #383838;
+	}
+	
+	#main-nav ul#interior-nav li a:hover {
+		color: #2b7739;
+	}
+	
+	/* CONTACT INFO */	
+	#contact-info {
+		margin:20px 0;
+		float: left;
+		width: 210px;
+	}
+	
+	#contact-info h2 {
+		margin-bottom: 5px;
+		font-size: 16px;
+		font-weight: regular;
+		line-height: 22px;
+		color: #383838;
+		text-decoration: underline;
+	}
+	
+	#contact-info p {
+		margin-bottom: 15px;
+		font-size: 13px;
+	}
+	
+	#contact-info p a, #contact-info p a:visited {
+		color: #383838;
+	}
+	
+	#contact-info p a:hover {
+		color: #2b7739;
+	}
+	
+	#contact-info ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	#contact-info ul li {
+		margin-right: 3px;
+		display: inline;
+	}
+	
+	#contact-info ul li a, #contact-info ul li a:visited {
+		opacity: 0.9;
+	}
+	
+	#contact-info ul li a:hover {
+		opacity: 1;
+	}
+		
+	/*--------------------------------------------
+	FEATURE SLIDER
+	---------------------------------------------*/
+	#feature-slider {
+		min-height: 675px;
+		max-height: 675px;
+		height: auto;
+	}
+	
+	#feature-slider ul.slides li {
+		min-height: 675px;
+		max-height: 675px;
+	}
+	
+	/*--------------------------------------------
+	INTERIOR SLIDER
+	---------------------------------------------*/
+	#interior-slider {
+		min-height: 580px;
+		max-height: 580px;
+	}
+	
+	#interior-slider ul.slides li {
+		min-height: 580px;
+		max-height: 580px;
+	}	
+}
+/*--------------------------------------------
+END IPAD LANDSCAPE STYLES
+---------------------------------------------*/
