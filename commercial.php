@@ -1,7 +1,6 @@
 <?php $title = "Commercial Portfolio"; ?>
 
 <?php include 'includes/head.php'; ?>
-<link rel="stylesheet" type="text/css" href="/css/interior-flexslider.css">
 
 <div id="interior-header">
 	<h1><a href="/" id="logo">Jay Greene<br/> Photography</a></h1>
@@ -77,10 +76,6 @@
 			background-size: cover;">
 		</li>
 	</ul>
-	
-	<div id="footer">
-		<p>&copy; <?php echo date("Y") ?> Jay Greene Photography.</p>
-	</div>
 </div><!-- END #interior-slider -->
 
 <script type="text/javascript">

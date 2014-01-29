@@ -1,0 +1,1 @@
+A static PHP/HTML/CSS/jQuery website built for Jay Greene Photography.

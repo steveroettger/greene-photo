@@ -24,12 +24,13 @@
 	<link rel="stylesheet" type="text/css" href="/css/custom.css">
 	<link rel="stylesheet" type="text/css" href="/css/mobile.css">
 	<link rel="stylesheet" type="text/css" href="/css/magnific.css">
+	<link rel="stylesheet" type="text/css" href="/css/flexslider.css">
 	
 	<!-- JAVASCRIPTS -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="/js/magnific.js"></script>
 	<script type="text/javascript" src="/js/jquery.flexslider-min.js"></script>
-	<script type="text/javascript" src="/js/modernizer.js"></script>
+	<!--<script type="text/javascript" src="/js/modernizer.js"></script>-->
 
 </head>
-<body>
+<body style="overflow-y: scroll !important;">
